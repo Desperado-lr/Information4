@@ -1,34 +1,11 @@
 from flask import Flask, session
+from flask_migrate import Migrate, MigrateCommand
+from flask_script import Manager
+from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 from redis import StrictRedis
-from  flask_session import Session
-from flask_script import Manager
-from flask_migrate import Migrate, MigrateCommand
-class Config(object):
-    """项目的配置"""
-    DEBUG = True
-
-    SECRET_KEY = "cFkIZAsQm7CV3tTTYaNO3nVSS2p1Q/rrCFNlBlmptbFvcQn58o/bMgqOhELkdNU5"
-
-     #  为mysql 添加配置
-    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/information4"
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
-
-    # redis 的配置
-    REDIS_HOST = "127.0.0.1"
-    REDIS_PORT = 6379
-
-    # Session 保存配置
-    SESSION_TYPE = "redis"
-    # 是否开始session签名
-    SESSION_USE_SIGNER = True
-    # 定义Session 保存的 redis
-    SESSION_REDIS = StrictRedis(host=REDIS_HOST,port=REDIS_PORT)
-    # 设置需要过期
-    SESSION_PERMANENT = False
-    # 设置过期时间
-    PERMANENT_SESSION_LIFETIME =86400 * 2
+from config import Config
 
 app = Flask(__name__)
 
@@ -44,12 +21,12 @@ CSRFProtect(app)
 # 设置Session 保存到指定位置
 Session(app)
 
-
 manager = Manager(app)
 # 将app与db关联
 Migrate(app, db)
 # 将迁移命令添加到manager中
 manager.add_command('db', MigrateCommand)
+
 
 @app.route('/')
 def index():
@@ -58,5 +35,4 @@ def index():
 
 
 if __name__ == '__main__':
-
     manager.run()
