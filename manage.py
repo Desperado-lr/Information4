@@ -6,11 +6,11 @@ class Config(object):
     """项目的配置"""
     DEBUG = True
 
-    #  为 mysql 添加配置
+    #  为mysql 添加配置
     SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/information4"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-# lll
+
 app = Flask(__name__)
 
 # 加载配置
