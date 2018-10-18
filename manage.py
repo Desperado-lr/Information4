@@ -1,4 +1,5 @@
-from flask import session
+import logging
+
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
 
@@ -17,7 +18,16 @@ manager.add_command('db', MigrateCommand)
 
 @app.route('/')
 def index():
-    session["name"] = "Desperado-lr"
+    # session["name"] = "Desperado-lr"
+
+    # 测试打印日志
+    logging.debug('测试debug')
+    logging.warning('测试warning')
+    logging.error('测试error')
+    logging.fatal('测试fatal')
+
+    # current_app.logger.error('测试error')
+
     return 'index'
 
 

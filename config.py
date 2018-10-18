@@ -1,3 +1,5 @@
+import logging
+
 from redis import StrictRedis
 
 
@@ -26,6 +28,9 @@ class Config(object):
     # 设置过期时间
     PERMANENT_SESSION_LIFETIME = 86400 * 2
 
+    # 设置日志等级
+    LOG_LEVEL = logging.DEBUG
+
 
 class DevelopmentConfig(Config):
     """开发环境下的配置"""
@@ -36,7 +41,8 @@ class PorductionConfig(Config):
     """生产环境下的配置"""
     DEBUG = False
     # 生产环境下的数据库配置
-    SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/information4"
+    LOG_LEVEL = logging.WARNING
+    # SQLALCHEMY_DATABASE_URI = "mysql://root:123456@127.0.0.1:3306/information4"
 
 
 class TestingConfig(Config):
