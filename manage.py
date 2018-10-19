@@ -2,8 +2,10 @@ import logging
 
 from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
-
 from info import create_app, db
+
+# manage.py 是程序启动的入口，之关心启动的相关参数以及内容
+# 不关心具体该如何创建app或者相关业务逻辑
 
 # 通过指定的配置名字创建对应配置的app
 # create_app 就类似于 工厂方法
@@ -16,19 +18,7 @@ Migrate(app, db)
 manager.add_command('db', MigrateCommand)
 
 
-@app.route('/')
-def index():
-    # session["name"] = "Desperado-lr"
 
-    # 测试打印日志
-    logging.debug('测试debug')
-    logging.warning('测试warning')
-    logging.error('测试error')
-    logging.fatal('测试fatal')
-
-    # current_app.logger.error('测试error')
-
-    return 'index'
 
 
 if __name__ == '__main__':
