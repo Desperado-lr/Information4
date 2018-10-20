@@ -4,6 +4,7 @@ from flask_migrate import Migrate, MigrateCommand
 from flask_script import Manager
 from info import create_app, db, models
 
+
 # manage.py 是程序启动的入口，之关心启动的相关参数以及内容
 # 不关心具体该如何创建app或者相关业务逻辑
 
