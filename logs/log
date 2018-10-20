@@ -146,3 +146,234 @@ INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:05:34] "GET /static/news/imag
 INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:05:34] "GET /static/news/images/person.png HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:05:34] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:05:48] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:35] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:36] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:36] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:43] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:39:44] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:38] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:39] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:39] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:39] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:39] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:39] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:40] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:40] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:41:48] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:12] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:44:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:46:19] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:50:08] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:52:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:28] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:28] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:28] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:29] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:39] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:39] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 18:59:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:00:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:01:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:02:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:03:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:04:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\index\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:05:25] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:07:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:07:32] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:07:32] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:07:32] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:08:58] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:08:58] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:08:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /images/logo.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /css/main.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /css/reset.css HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /images/person.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:10:46] "GET /user_count.html HTTP/1.1" 404 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:18:30] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [20/Oct/2018 19:18:31] "GET /favicon.ico HTTP/1.1" 404 -
