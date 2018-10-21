@@ -918,3 +918,15 @@ INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 18:56:07] "GET /passport/image_c
 INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 18:56:07] "GET /passport/image_code?imageCodeId=5aae71dc-3095-4568-9626-df268e6a7ba0 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 18:56:07] "GET /passport/image_code?imageCodeId=830b67c8-9dc2-4989-8f2b-5bf83adde098 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 18:56:07] "GET /passport/image_code?imageCodeId=516db402-996c-4836-83b3-b6e0dd17b041 HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:21] "GET /passport/image_code?imageCodeId=7778c160-4726-4eb8-86fa-6c141fdd58d3 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:22] "GET /passport/image_code?imageCodeId=de5f6d52-56be-447d-a520-0d8c35235e00 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:22] "GET /passport/image_code?imageCodeId=2a70ab0b-0bc1-43c9-a5c8-f6adc7ad5237 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:22] "GET /passport/image_code?imageCodeId=2862754a-c58a-468c-9f04-9b7d6a6b1d08 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:23] "GET /passport/image_code?imageCodeId=c1ba5ea7-b74f-4587-822c-59e91929075f HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:23] "GET /passport/image_code?imageCodeId=03eda867-bec2-4d13-afc4-7d294fc190d9 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [21/Oct/2018 20:43:23] "GET /passport/image_code?imageCodeId=68aa0982-77ce-425d-af7f-3a8d3e6ba9cf HTTP/1.1" 200 -
