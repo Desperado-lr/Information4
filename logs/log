@@ -1469,3 +1469,8 @@ INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/imag
 DEBUG views.py:167 图片验证码内容是：ZCMV
 INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:21] "GET /passport/image_code?imageCodeId=abcae1f2-46fb-4919-9b42-3f4894a5cc44 HTTP/1.1" 200 -
 INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:21] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:26:14] "GET / HTTP/1.1" 200 -
