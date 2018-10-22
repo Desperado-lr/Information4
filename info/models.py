@@ -59,6 +59,7 @@ class User(BaseModel, db.Model):
     news_list = db.relationship('News', backref='user', lazy='dynamic')
 
 
+
     def to_dict(self):
         resp_dict = {
             "id": self.id,
