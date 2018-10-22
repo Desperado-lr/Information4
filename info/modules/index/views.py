@@ -7,7 +7,7 @@ from . import index_blu
 @index_blu.route('/')
 def index():
 
-    return render_template("/news/index.html")
+    return render_template("news/index.html")
 
 
 # 在打开网页的时候 浏览器会默认去请求根路径+favicon.ico作网站标签的小图标

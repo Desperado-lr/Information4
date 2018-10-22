@@ -1404,3 +1404,68 @@ INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 15:11:27] "GET /passport/image_c
 INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 15:11:28] "GET /passport/image_code?imageCodeId=5ab6ab15-7c6b-4cbf-a63d-1c029d16426e HTTP/1.1" 200 -
 DEBUG views.py:63 短信验证码内容是：901311
 INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 15:11:33] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:07] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:14] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:00:25] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Detected change in 'D:\\devlop\\Information4\\info\\modules\\passport\\views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 148-521-747
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:03:23] "GET / HTTP/1.1" 200 -
+DEBUG views.py:167 图片验证码内容是：J5WP
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:03:27] "GET /passport/image_code?imageCodeId=070b0c7e-4125-4597-aae8-39bf75486b20 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:03:27] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -
+DEBUG views.py:130 短信验证码内容是：564799
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:03:59] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:05:35] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:06:25] "GET / HTTP/1.1" 200 -
+DEBUG views.py:167 图片验证码内容是：TMEZ
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:06:37] "GET /passport/image_code?imageCodeId=bfcd8d4f-548e-4690-9390-02c812d81ac9 HTTP/1.1" 200 -
+DEBUG views.py:130 短信验证码内容是：760365
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:07:09] "POST /passport/sms_code HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:07:35] "POST /passport/register HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:00] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:10] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/css/reset.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/css/main.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/js/main.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/js/index.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/logo.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/news_pic.jpg HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/person.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/pic_code.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/hit_icon.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:19] "GET /static/news/images/clock.png HTTP/1.1" 200 -
+DEBUG views.py:167 图片验证码内容是：ZCMV
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:21] "GET /passport/image_code?imageCodeId=abcae1f2-46fb-4919-9b42-3f4894a5cc44 HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [22/Oct/2018 20:11:21] "GET /static/news/images/shutoff.png HTTP/1.1" 200 -

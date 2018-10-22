@@ -60,19 +60,19 @@ def register():
     user.last_login = datetime.now()
     # TODO 对密码坐处理
 
-    # 6.添加到数据库
-    try:
-        db.session.add(user)
-        db.session.commit()
-    except Exception as e:
-        current_app.logger.error(e)
-        db.session.rollback()
-        return jsonify(errno=RET.DBERR, errmsg="数据保存失败")
-
-    # 往session 中保存数据便是当前已登陆
-    session["user_id"] = user.id
-    session["mobile"] = user.mobile
-    session["nick_name"] = user.nick_name
+    # # 6.添加到数据库
+    # try:
+    #     db.session.add(user)
+    #     db.session.commit()
+    # except Exception as e:
+    #     current_app.logger.error(e)
+    #     db.session.rollback()
+    #     return jsonify(errno=RET.DBERR, errmsg="数据保存失败")
+    #
+    # # 往session 中保存数据便是当前已登陆
+    # session["user_id"] = user.id
+    # session["mobile"] = user.mobile
+    # session["nick_name"] = user.nick_name
 
     # 7.返回相应
     return jsonify(errno=RET.OK, errmsg="注册成功")
@@ -164,6 +164,7 @@ def get_image_code():
         return abort(403)
     # 3.生成图片验证码
     name, text, image = captcha.generate_captcha()
+    current_app.logger.debug("图片验证码内容是：%s" % text)
     # 4.保存图片验证码文字内容到redis
 
     try:
