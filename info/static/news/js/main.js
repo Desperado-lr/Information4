@@ -297,6 +297,12 @@ function sendSMSCode() {
     })
 
 }
+function logout() {
+    $.get('/passport/logout', function (resp) {
+        location.reload()
+
+    })
+}
 
 // 调用该函数模拟点击左侧按钮
 function fnChangeMenu(n) {
@@ -310,6 +316,8 @@ function fnChangeMenu(n) {
 
 // 一般页面的iframe的高度是660
 // 新闻发布页面iframe的高度是900
+
+
 function fnSetIframeHeight(num){
 	var $frame = $('#main_frame');
 	$frame.css({'height':num});

@@ -11,6 +11,23 @@ from info.utils.response_code import RET
 from . import passport_blu
 
 
+@passport_blu.route('/logout')
+def logout():
+    """
+    退出登录
+    :return:
+    """
+    # pop是移除session中的数据(dict)
+    # pop 会有一个返回值，如果要移除的key不存在，就返回None
+    session.pop('user_id', None)
+    session.pop('mobile', None)
+    session.pop('nick_name', None)
+    # 要清楚is_admin的值，如果不清除，先登录管理员，会保存到session，再登录普通用户，又能访问管理员页面
+    session.pop('is_admin', None)
+
+    return jsonify(errno=RET.OK, errmsg="退出成功")
+
+
 @passport_blu.route('/login', methods=["POST"])
 def login():
     """
@@ -71,6 +88,7 @@ def login():
     # 5. 响应
     return jsonify(errno=RET.OK, errmsg="登录成功")
 
+
 @passport_blu.route('/register', methods=["POST"])
 def register():
     """
@@ -120,7 +138,6 @@ def register():
     user.last_login = datetime.now()
     # 需求：在设置 password 的时候，去对 password 进行加密，并且将加密结果给 user.password_hash 赋值
     user.password = password
-
 
     # # 6.添加到数据库
     try:
