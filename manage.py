@@ -12,8 +12,8 @@ from info import create_app, db, models
 # create_app 就类似于 工厂方法
 app = create_app('development')
 
-manager = Manager(app)
 # 将app与db关联
+manager = Manager(app)
 Migrate(app, db)
 # 将迁移命令添加到manager中
 manager.add_command('db', MigrateCommand)
