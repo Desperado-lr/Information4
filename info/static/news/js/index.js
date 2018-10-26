@@ -10,12 +10,16 @@ $(function () {
 
     // 首页分类切换
     $('.menu li').click(function () {
+        // 取到指定的cid
         var clickCid = $(this).attr('data-cid')
+        // 遍历所有的li 移除身上的选中效果
+
         $('.menu li').each(function () {
             $(this).removeClass('active')
         })
+        // 给当前的分类添加选中的状态
         $(this).addClass('active')
-
+        // 如果点击的分类与当前分类不一致
         if (clickCid != currentCid) {
             // 记录当前分类id
             currentCid = clickCid
